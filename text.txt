@@ -1,0 +1,8 @@
+curl -X POST "https://health-tracker-bruw.onrender.com" \
+-H "Content-Type: application/json" \
+-d '{
+  "user_id": 100,
+  "timestamp": "2023-10-29T12:00:00",
+  "event_type": "activity",
+  "event_value": "deployment test"
+}'
